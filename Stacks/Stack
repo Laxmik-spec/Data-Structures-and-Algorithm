@@ -1,0 +1,28 @@
+** Stack
+1. Linear Data Structure.
+2. It follows Last In First Out (LIFO) order.
+3. Insertion and deletion is done from one end.
+4. Push is used to insert elements into the stack.
+5. Pop is used to remove elemets from the stack.
+
+** Stack Functions
+1. push(x): It is used to insert elements to the stack
+2. pop(x): It is used to remove elements from the stack
+3. size(): gives the size of the stack
+4. top(): give refrence of the last element in the stack
+5. empty(): returns true for an empty stack
+for every function time complexity is O(1)
+
+** Stack Implementation
+1. Using list
+2. Using deque
+3. Using queue
+
+** Advantages
+1. Maintains data in LIFO Order
+2. Last element is readily avaliable to use
+3. All operations are of O(1) complexity
+
+** Disdavantages
+1. Manipulation is restricted to the top of the stack
+2. Not much flexible

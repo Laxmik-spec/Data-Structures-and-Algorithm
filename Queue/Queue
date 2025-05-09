@@ -1,0 +1,26 @@
+** Queue
+1. Linear Data Structure
+2. Follows: First In First Out (FIFO)
+3. Insertion can take place from the rear end
+4. Deletion can take place from the front end
+5. Ex: Ticket booking
+6. 4 major operations:
+    enqueue(ele) - used to insert element at top
+    dequeue() - remove the top element from the queue
+    peekfirst() - to get the first element from the queue
+    peeklast() - to get the last element from the queue
+7. All operations work in constant time O(1)
+
+** Applications
+1. Scheduling
+2. Maintaining playlist
+3. Interrupt handling
+
+** Advantages
+1. Maintains data in FIPO
+2. Insertion from beginning and deletion end takes O(1) time
+
+** Disadvantages
+1. Manipulation is restricted from front and rear
+2. Not much flexible
+

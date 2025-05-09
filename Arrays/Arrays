@@ -1,0 +1,32 @@
+** Array 
+1. It is a linear data structure
+2. Contigious Memory location
+3. Access elements randomly
+4. Homogeneous Elements (ie similar elemets)
+
+** 1-Dimensional Array
+1. 1D can be related to a row
+2. Elements are stored one after the another
+3. Only 1 subscript or index is used
+
+** 2-Dimensional Array
+1. 2D can be related to a table or matrix
+2. Elements are stored one after the another ie one 1D array inside another
+3. Two subscripts or indices are used, one row and one column
+4. Dimensions depend upon the number of subscripts used
+
+** Array Implementation
+1. Create 1D array and insert elements into the array and access the elements of the array
+2. Create 2D array and insert elements into the array and access the elements of the array
+3. Search, Sort, Delete operations on array of integrers
+
+** Advantages 
+1. Random access elements
+2. Easy sorting and iteration
+3. Replacement of multiple variables
+
+** Disadvantages 
+1. Size is fixed
+2. Difficult to insert and delete
+3. If capacity is more and occupacy less, most of the array gets wasted
+4. Needs contigious memory

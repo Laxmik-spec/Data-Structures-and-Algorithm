@@ -1,0 +1,51 @@
+
+** Linked List
+1. Linear Data Structure
+2. Each node contains data and reference(pointer) which points to the address of next node
+3. Elements are stored randomly in memory
+
+
+** Representation of Linked List
+
+              2000(n1)                  2010(n2)                     2020(n3)
+             _______________            _________________            ________________
+    Head--> | 20    | 2010  |__________| 30     | 2020   |__________| 40    |        | --> null
+    2000    |_______|_______|          |________|________|          |_______|________|
+              Data     Ref                Data     Ref                Data     Ref
+
+    Head - holds the value of first node
+
+
+** Why Linked List
+1. Linked List has more efficiency for performing operations as compared to list
+2. Elements in linked list are stored randomly whereas in list at contigious memory
+3. Accessing elements in linked list is slower as compared to list
+4. Utilization of memory is higher as compared to list
+
+
+** Singly Linked List
+
+              2000(n1)                  2010(n2)                     2020(n3)
+             _______________            _________________            ________________
+    Head--> | 20    | 2010  |__________| 30     | 2020   |__________| 40    |        | --> null
+    2000    |_______|_______|          |________|________|          |_______|________|
+              Data     Ref                Data     Ref                Data     Ref
+
+    Head - holds the value of first node
+
+1. It is traversed in one direction
+2. Operations on Singly Linked List
+    
+                 Beginning
+               / 
+    a. Insertion /____ At specific Node
+              \
+               \ End
+
+                 Beginning
+               / 
+    b. Deletion  /____ At specific Node
+              \
+               \ End
+
+    c. Traversal - going through each node of the linked list
