@@ -1,0 +1,40 @@
+** Doubly Linked List
+1. It is a collection of nodes which contains data and two pointers
+2. One pointer is for previous node and one for the next node
+3. Traversal is in the forward as well as backward direction
+
+** Representation of Doubly Linked List
+
+             _______________________        _______________________         _______________________  
+            |       |       |       |----->|       |       |       |------->|      |       |       |
+            |  NULL |  DATA | NEXT  |      |  PREV |  DATA | NEXT  |        | PREV | DATA  | NULL  |   
+            |_______|_______|_______|<-----|_______|_______|_______|<-------|______|_______|_______|
+                      HEAD
+
+
+** Example
+                    1000                            2000                            3000
+             _______________________        _______________________         _______________________  
+            |       |       |       |----->|       |       |       |------->|      |       |       |
+            |  NULL |  10   | 2000  |      |  1000 |  20   | 3000  |        | 2000 | 30    | NULL  |   
+            |_______|_______|_______|<-----|_______|_______|_______|<-------|______|_______|_______|
+                      N1                              N2                              N3
+
+
+** Operations
+
+Several Operations that can be performed are:
+
+                 Beginning
+               / 
+    a. Insertion /____ At specific Node
+              \
+               \ End
+
+                 Beginning
+               / 
+    b. Deletion  /____ At specific Node
+              \
+               \ End
+
+    c. Traversal - going through each node of the linked list

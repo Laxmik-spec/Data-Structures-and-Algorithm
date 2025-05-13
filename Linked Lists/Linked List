@@ -49,3 +49,14 @@
                \ End
 
     c. Traversal - going through each node of the linked list
+
+  
+** Advantages
+1. Dynamic in size
+2. No wastage as capacity and size is always equal
+3. Easy insertion and deletion as 1 manipulation is required
+4. Efficient memory allocation is required
+
+** Disadvantages
+1. If head is lost linked list is lost
+2. No random access is possible

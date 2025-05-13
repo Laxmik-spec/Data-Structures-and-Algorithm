@@ -1,0 +1,25 @@
+** Circular Linked List
+the last node points to the first node
+
+** Types of Linked List
+1. Singly Circular Linked List
+2. Doubly Circular Linked List
+
+** Representation of Singly Circular Linked List
+
+              2000(n1)                  2010(n2)                     2020(n3)
+             _______________            _________________            ________________
+    Head--> | 20    | 2010  |__________| 30     | 2020   |__________| 40    | 2000   | 
+    2000    |_______|_______|          |________|________|          |_______|________|
+              Data     Ref                Data     Ref                Data     Ref
+
+
+** Representation of Doubly Cirular Linked List
+
+
+                    1000                            2000                            3000
+             _______________________        _______________________         _______________________  
+    Head    |       |       |       |----->|       |       |       |------->|      |       |       |
+    2000--->|  NULL |  10   | 2000  |      |  1000 |  20   | 3000  |        | 2000 | 30    | 1000  |   
+            |_______|_______|_______|<-----|_______|_______|_______|<-------|______|_______|_______|
+                      N1                              N2                              N3
