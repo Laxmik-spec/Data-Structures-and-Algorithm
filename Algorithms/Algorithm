@@ -1,0 +1,19 @@
+
+** Algorithm
+1. It is a step by step approach to slove a particular Algorithm
+2. It gives a crisp solution
+3. Its free of programming language constraints
+4. There can be multiple possible algorithms to solve the given problem
+
+
+** Algorithm Analysis
+1. It helps in the indentification of optimal algorithm
+2. It helps in understanding the trade-off of time and space requirement
+
+
+** Algorithm Analysis Types
+1. There are different types of algorithm analysis
+    a. Best Case
+    b. Average Case
+    c. Worst Case
+2. Worst Case is computed always for the analysis as it dictates maximum resource requirements

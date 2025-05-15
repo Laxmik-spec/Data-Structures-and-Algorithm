@@ -1,0 +1,27 @@
+** Graph
+1. Graph is a data structure derived concept of mathematics
+2. Graph is a collection of vertices and edges represents relationship between the vertices
+
+
+** Representation of Graph
+
+        A
+      /   \         A,B,C,D are the vertices
+      B    D        AB, AD, BC, DC are the edges
+      \   /
+        C
+
+
+** Breadth First Search
+It is an algorithm to trace the nodes of the graph in a breadth-first-search order, that is the neighbouring nodes  in a single level are traversed first, then the nodes in the next level are traversed.
+
+
+                        10          
+                      /    \
+                     20     30      Level1 / Level0
+                    / \     / \
+                  40   50 60   70   Level2 / Level1
+
+
+** Depth First Search
+It is an algorithm to trace the nodes of the graph in a depth first order, the nodes in one depth are traversed first, then the nodes in the parallel depth are traversed. It uses the concept of back-tracking after one vertical depth is traversed

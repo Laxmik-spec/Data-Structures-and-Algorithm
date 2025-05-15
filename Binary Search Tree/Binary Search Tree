@@ -1,0 +1,20 @@
+
+** Binary Search Tree
+1. Binary tree with some additional restrictions
+2. Restriction:
+    - Left child must always be less than the root
+    - Right child must always be greater than the root
+3. Insertion, Deletion, Search is much more efficient than binary search
+
+
+** Applications
+Sutiable for hierarchical data
+
+
+** Advantages
+can represent some data with some relationship
+Insertion and search are much more efficient
+
+** Disadvantages
+Sorting is difficult
+Not much flexible

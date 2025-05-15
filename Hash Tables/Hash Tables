@@ -1,0 +1,13 @@
+** Hashing
+
+1. Hashing is a black box that takes key as an input and provides hash value as an output, where hash value belongs to a fixed space
+2. It is a one-way function
+3. A good hashing function has minimalistic collision
+4. A HASH TABLE is a data structure that uses a pair of keys and values to store values. Each value is given a one-of-a-kind key created by a hash function
+
+        h(k) = k1 % m
+
+h(k) -> value we want to calculate key for
+m -> size of the list
+k1 -> value we want to store
+

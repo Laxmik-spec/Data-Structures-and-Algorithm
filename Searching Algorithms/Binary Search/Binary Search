@@ -1,0 +1,65 @@
+
+** Binary Search 
+1. Binary Search is one of the searching technique
+2. It can be used on sorted array
+3. This searching technique follows the divide and conquer strategy and search space always reduces to the half in every iteration
+4. This is a very efficient technique for searching but it needs some order on which partition of the array will occur
+
+
+** Iterative Algorithm:
+
+binarySearch(arr, size)
+    loop until start is equal to end
+    mid = (start + end) / 2
+    if item == arr[mid]
+        return mid
+    elif item > arr[mid]
+        start = mid + 1
+    else 
+        end = mid - 1
+
+
+** Recursive Algorithm:
+
+binarySearch(arr, item, start, end)
+    if start <= end
+        mid = (start + end) / 2
+        if item == arr[mid]
+            return mid
+        elif item > arr[mid]
+            return binarySearch(arr, mid, start, mid-1)
+        else
+            return binarySearch(arr, mid, mid+1, end)
+    return -1
+
+
+** Demonstration:
+
+Item to be searched = 20
+
+input 
+0   1   2   3   4
+10  11  16  20  23
+
+start=0     end=4   mid=2
+0   1   |2 |  3   4
+10  11  |16|  20  23
+
+start=0     end=4   mid=3
+0   1   2   |3 |  4
+10  11  16  |20|  23
+
+element found at index 3 hence 3 will be returned
+
+
+** Time Complexity:
+1. Best Case: 0(1)
+2. Average Case: 0(logn)
+3. Worst Case: 0(logn)
+4. In each iteration the search space is getting divided by 2. That means in the currect iteration you have to deal with half of the previous iteration array, and the above steps continue till start<end.
+5. Best case could be the case where the first mid-value gets matched to the element to be searched
+
+
+** Space Complexity:
+1. No auxiliary space is required in Binary Search Implementation
+2. Hence space complexity is 0(1)

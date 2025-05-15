@@ -1,0 +1,57 @@
+
+** Time Complexity
+1. It determines the total number of unit operations to be undertaken to solve a problem 
+2. Unit operation is an operation that is independent and cant be broken down in simpler operation
+3. It is independent of architecture
+4. It is calculated on the basis of algoritm itself
+5. Its high priority criteria in optimal algoritm selection
+
+
+** Space Complexity
+1. It determines the total space to be allocated in order to solve a particular problem 
+2. It is the extra memory that an algorithm needs its implementation
+3. It invovles the memory of computers
+4. Its a low priority criteria in optimal algorithm selection
+
+
+** Tips and Ticks to find time and space complexity
+
+1. Loop
+        for(i=0;i<n;;i++)
+        {
+            x = y + z
+        }
+        time complexity - 0(n)
+        space complexity - 0(1) for varibles x, y, z
+
+2. Nested Loops
+        for(i=0;i<n;i++)        0(n)
+        {
+            for(j=0;j<n;j++)    0(n)
+            {   
+                x = y + z       0(1)
+            }
+        }
+        Time complexity - n * n + 1 = 0(n^2)
+        Space Complexity - 0(1)
+
+3. if else 
+        if (){
+            x = y + z        0(n)
+        }
+        else{
+            x = y + z        0(n^2)
+        }
+        Time complexity - 0(n)
+        Space Complexity - 0(1)
+
+4. x = y + z;           0(1)         Time complixity: 0(1 + n + n^2 + 1)
+   for {                0(n)                          0(n n^2)
+    code                                              0(n^2)
+   } 
+   do {                 0(n^2)
+
+   } while()
+   a++                  0(1)        Space Complexity: 0(1)
+
+as priority goes to n^2 and 1 is a constant both are not considered and time complxity is 0(n^2)

@@ -1,0 +1,28 @@
+
+** Linear Search
+1. It helps you to search for the element in a linear fashion
+2. It checks for each element for the element to be searched
+3. Since it is done in linear fashion, it is termed as linear search
+
+
+** Linear Search Algorithm
+
+linearSearch(arr, item)
+    for each element in array
+        if element == item
+            return its index
+    return -1
+
+
+** Time Complexity
+1. Best Case - 0(1)
+2. Average Case - 0(n)
+3. Worst Case - 0(n)
+4. Here all the elements needs to be compared in worst case to search the given element
+5. Best case is when the first element gets matched with the first element to be searched
+
+
+** Space Complexity
+1. No auxiliary space is required in Linear Search Implementation
+2. Hence space complexity is 0(1)
+
