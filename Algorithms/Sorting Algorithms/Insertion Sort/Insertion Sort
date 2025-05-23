@@ -1,0 +1,46 @@
+** Insertion Sort
+
+1. It is one of the easiest and brute force sorting algorithm
+2. Insertion sort is used to sort elements in either ascending or descending order
+3. In insertion sort, we maintain a sorted part and unsorted part
+4. It works just like playing cards i.e picking one card and sorting it with cards in hand already which in turn are sorted
+5. With every iteration, one item from unsorted is moved to the sored part
+6. First item is picked and considered as sorted
+7. Then we start picking from the 2nd elements onwards and start comparing it with the element in sorted part
+8. We shift the elements in sorted by one element until an appropriate location is not found for the picked element
+9. This continues till all the elements get exhausted
+
+
+** Time Complexity
+
+1. In the worst case, it will take n to pick all the elements and then at max n shifts to be set to the right position
+2. In the best case that is the sorted array we will just pick the elements but on shifting will take place leading it to n time complexity that is every element is traversed at least once
+3. Best Time Complexity - 0(n)
+4. Average Time Complexity - 0(n^2)
+5. Worst Time Complexity - 0(n^2)
+
+
+** Space Complexity
+
+1. No auxiliary space is required in insertion sort implementation that is we are not using any array, linked list, stack, queue etc to store elements
+2. Space complexity = 0(1)
+
+
+** Analysis
+
+1. Number of comparisions
+2. Number of swaps
+3. Stable or Unstable
+4. Inplace or Outplace
+
+
+** Example
+
+Given an array which is a nearly sorted (K sorted) array we need to sort the elements in the array
+input = [6, 5, 3, 2, 8, 10 ,9, 11]
+k = 3
+output =  [2, 3, 5, 6, 8, 9, 10, 11]
+
+k = 3 indicates that for each element to be sorted there can be max 3 swaps
+
+                     
