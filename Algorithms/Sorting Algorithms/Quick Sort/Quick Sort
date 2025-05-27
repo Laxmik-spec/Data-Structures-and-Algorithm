@@ -1,0 +1,64 @@
+
+** Quick Sort
+
+1. It is one of the most widely used sorting algorithm
+2. It follows the divide and conquer paradigm
+3. Recursion is used in quick sort implementation
+4. In each recursive call a pivot is choosen then the array is partition in such a way that all the elements less than pivot lie to the left and all the elements greater than the pivot lie to the right
+5. After every call, the choosen pivot occupies its correct position in the array which it is supposed to as in sorted array
+6. So with each step our problem gets reduced by 2 which leads to quick sorting
+7. Pivot can be the last element, first element or any random element from the current array
+
+
+** Quick Sort Algorithm
+
+quicksort(arr, beg, end)
+    if beg < end 
+        pivot = partion(arr, beg, end)
+        quicksort(arr, beg, pivot - 1)
+        quicksort(arr, pivot + 1, end)
+
+
+** Partition Algorithm
+
+partion(arr, beg, end)
+    set end as pivot
+    pindex = beg - 1
+    for i = beg to end - 1
+        if arr[i] < pivot
+            pindex++
+            swap arr[i] and arr[pindex]
+
+    swap pivot and arr[pindex + 1]
+        return pindex + 1
+
+
+** Time Complexity
+
+1. Partition of elements take n time and in quick sort problem is divide by the factor 2 
+2. Best complexity: 0(nlogn)
+3. Average complexity: 0(nlogn)
+4. Worst complexity: 0(n^2)
+
+
+** Space complexity
+
+1. 0(n): basic approach
+2. 0(nlogn): modified approach
+
+
+** Advantages of Quick Sort
+
+1. It is a divide-and-conquer algorithm that makes it easier to solve problems.
+2. It is efficient on large data sets.
+3. It has a low overhead, as it only requires a small amount of memory to function.
+4. It is Cache Friendly as we work on the same array to sort and do not copy data to any auxiliary array.
+5. Fastest general purpose algorithm for large data when stability is not required.
+6. It is tail recursive and hence all the tail call optimization can be done.
+
+
+** Disadvantages of Quick Sort
+
+1. It has a worst-case time complexity of O(n^2), which occurs when the pivot is chosen poorly.
+2. It is not a good choice for small data sets.
+3. It is not a stable sort, meaning that if two elements have the same key, their relative order will not be preserved in the sorted output in case of quick sort, because here we are swapping elements according to the pivot's position (without considering their original positions).
