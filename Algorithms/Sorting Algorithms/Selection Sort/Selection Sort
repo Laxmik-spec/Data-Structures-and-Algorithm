@@ -1,0 +1,55 @@
+
+** Selection Sort
+
+1. It is a simple sort algorith that revolves around the 'comparision'
+2. In each iteration, one element get placed
+3. We choose the minimum element in the array and place it at the beginning of the array by swapping with the front element
+4. We can also do this by choosing maximum element and placing it at the rear end
+5. Selection sort basically select an element in every iteration and place it at the appropriate position
+
+
+** Selection Sort Algorithm
+
+selectionsort(arr, n)
+    iterate(n-1) times
+    set the first unsorted element index as the min
+        for each unsorted elements
+            if element < currentMin
+                set the elelment's index as new min
+        swap elements at min with first unsorted postion
+end selection sort
+
+
+** Time Complexity
+
+1. Best Time Complexity: 0(n^2)
+2. Average Time Complexity: 0(n^2)
+3. Worst Time Complexity: 0(n^2)
+4. In the worst case, in every iteration, we have to traverse the entire array for finding min elements and this will continue for all n elements. Hence this will perform n^2 operations in total
+
+
+** Space Complexity
+
+1. No auxiliary space is required in insertion sort implementation that is we are not using any array, linked list, stack, queue etc to store elements
+2. Space complexity = 0(1)
+
+
+** Advantages of Selection Sort
+
+1. Easy to understand and implement, making it ideal for teaching basic sorting concepts.
+2. Requires only a constant O(1) extra memory space.
+3. It requires less number of swaps (or memory writes) compared to many other standard algorithms. Only cycle sort beats it in terms of memory writes. 
+4. Therefore it can be simple algorithm choice when memory writes are costly.
+
+
+** Disadvantages of the Selection Sort
+
+1. Selection sort has a time complexity of O(n^2) makes it slower compared to algorithms like Quick Sort or Merge Sort.
+2. Does not maintain the relative order of equal elements which means it is not stable.
+
+
+** Applications of Selection Sort
+
+1. Perfect for teaching fundamental sorting mechanisms and algorithm design.
+2. Suitable for small lists where the overhead of more complex algorithms isn't justified and memory writing is costly as it requires less memory writes compared to other standard sorting algorithms.
+3. Heap Sort algorithm is based on Selection Sort.
